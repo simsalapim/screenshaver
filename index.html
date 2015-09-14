@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+	<title>&nbsp; Screenshaver</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+<link rel="icon" 
+      type="image/png" 
+      href="images/favicon.ico">
+	<!-- for Google -->
+	<meta name="description" content="Shave your screen like never before!" />
+	<meta name="keywords" content="shave razor beard hair shaving" />
+
+	<meta name="author" content="Simone Giertz" />
+	<meta name="copyright" content="" />
+	<meta name="application-name" content="Screen Shaver" />
+
+	<!-- for Facebook -->          
+	<meta property="og:title" content="Experience the Screenshaver" />
+	<meta property="og:type" content="article" />
+	<meta property="og:image" content="images/thumbnail.png" />
+	<meta property="og:url" content="http://screenshaver.net" />
+	<meta property="og:description" content="Shave your screen like never before!" />
+
+	<!-- for Twitter -->          
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Experience the Screenshaver" />
+	<meta name="twitter:description" content="Shave your screen like never before!" />
+	<meta name="twitter:image" content="images/thumbnail.png" />
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-45449651-3', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+
+<body>
+    <audio  loop class="shavingsound" src="audio/shavingsound.mp3">
+      <source src="audio/shavingsound.mp3" />
+    </audio>
+    <audio   class="applause" src="audio/applause.mp3">
+      <source src="audio/applause.mp3" />
+    </audio>
+
+	<div id = "hairs">
+	</div>
+	<div id = "shaved-hairs">
+	</div>
+
+	<div id = "razor">
+		<img src="images/razor.png" id="razor-img"></img>
+	</div>
+
+	<div class = "encouragements" id="wow" style = "display: none;"><img src="images/wow.png"></img></div>
+	<div class = "encouragements" id="body-part" style = "display: none;"><img src="images/body-part.png"></img></div>
+	<div class = "encouragements" id="almost-done" style = "display: none;"><img src="images/almost-done.png"></img></div>
+
+	<div id="done" style = "visibility: hidden;">
+		<img src="images/done.png"></img>
+		<a href="index.html"><img src="images/play-again.png"></img></a>
+		<br>
+		<div id = "social-media" target="blank">
+			<a href="https://twitter.com/intent/tweet?text=I%20just%20shaved%20some%20virtual%20hair!%20Peak%20of%20my%20day%20http%3A%2F%2Fscreenshaver.net"  target="blank"><img src="images/twitter.png"></img></a>
+			<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//screenshaver.net"  target="blank"><img src="images/facebook.png"></img></a>
+		</div>
+	<div id="made-by"><a href="http://simonegiertz.tumblr.com"  target="blank"><img id="made-by" src="images/made-by.png"></img></a></div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #ffe0c4;
+	cursor: none;
+}
+
+#hairs img{
+	height: 10px;
+	width:3px;
+	pointer-events: none;
+}
+
+#razor{
+	position:absolute;
+	float:left;
+}
+
+#razor img{
+	z-index: 1;
+	height: 200px;
+	transform: rotate(-45deg);
+	pointer-events: none;
+}
+
+#done{
+	padding-top:100px;
+	width:400px;
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+
+#done img{
+	width:100%;
+}
+.encouragements{
+	padding-top:100px;
+	width:400px;
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+.encouragements img{
+	width:100%;
+}
+
+#social-media{
+	width:200px;
+	padding-top:20px;
+  	margin-left: auto ;
+  	margin-right: auto ;
+
+}
+
+#social-media img{
+	width:75px;
+	padding-right:20px;
+}
+
+#made-by{
+	padding-top: 10px;
+	width:200px !important;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#made-by img{
+	width:200px;
+}
